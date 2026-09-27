@@ -1,3 +1,6 @@
 output/preview/
 output/*.jpg
 __pycache__/
+# reels/: личные исходники, рабочие файлы и лицензионные ассеты не публикуем (репозиторий публичный)
+reels/*/*
+!reels/*/.gitkeep

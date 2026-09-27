@@ -5,3 +5,4 @@ __pycache__/
 reels/*/*
 !reels/*/.gitkeep
 !reels/sfx/*
+!reels/library/полоски.png

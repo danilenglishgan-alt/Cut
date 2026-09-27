@@ -1,8 +1,13 @@
 # Cut — монтаж ролика про стикерпак
 
-Готовое видео: `output/montage.mp4` (1080×1920, 30 fps).
+| Версия | Файл | Скрипт |
+|---|---|---|
+| Стиль-кит 7 «эстетичный личный блог» | `output/montage_kit07.mp4` (1080×1920, 30 fps, H.264 High, AAC 320k, −14 LUFS) | `python3 render_kit07.py` |
+| Первая версия, «girly» | `output/montage.mp4` | `python3 render.py` |
 
-Пересобрать: `python3 render.py` (нужны `ffmpeg`, `pillow`, `numpy`, шрифт Noto Color Emoji).
-Превью отдельных кадров: `python3 render.py preview 1.2 8.3 12.9`.
+Превью кадров (время в итоговом ролике): `python3 render_kit07.py preview 1.2 8.3 12.9`.
 
-Шрифты (OFL, Google Fonts): Rubik Bubbles, Marck Script, Unbounded, Cormorant Garamond.
+Нужны `ffmpeg`, `pillow`, `numpy`.
+
+Шрифты (OFL, Google Fonts): Nunito, Lobster, Caveat, Cormorant Garamond, а также Rubik Bubbles,
+Marck Script и Unbounded для первой версии.
